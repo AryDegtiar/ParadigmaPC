@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AprendePC.AprendeMonitor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="90dp"
+                android:src="@drawable/monitor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El monitor se encarga de mostrar las imágenes que transmite la placa gráfica, sin él la PC andaría, pero no podríamos visualizar nada.\nExisten diferentes tecnologías de pantallas:"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LCD: Se compone de pixeles* a color iluminados por una luz reflectora.\nLED: Se compone de pixeles mediante módulos o paneles de LEDs.\nOLED: Se compone de pixeles mediante LEDs y cada píxel se puede iluminar por separado.\n\n* Píxel = Es la unidad mínima de color en una imagen digital."
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLas características a tener en cuenta son:"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-Tecnología de la pantalla: LCD, LED, OLED.\n-Tasa de refresco*: Los monitores más comunes suelen tener 60Hz (60 imágenes por segundo) pero también existen de 75Hz, 120Hz, 144Hz, 240Hz y 360Hz.\n-Tipo de panel: TN (no tiene muy buenos colores, pero si un buen tiempo de respuesta), IPS (tienen buenos colores, pero no suelen tener un buen tiempo de respuesta), VA (es un intermedio entre el panel TN y IPS, tienen mejores colores que el panel TN y mejor tiempo de respuesta que el IPS).\n-Resolución: Se determina por la cantidad de pixeles que tiene el panel, mientras más pixeles tenga mejor va a ser la calidad de la imagen, existen HD (1280x720), FULL HD (1920x1080), 4K/UHD (3840x2160).\n\n* Tasa de refresco = Imágenes por segundo."
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOTA: Para videojuegos es recomendable que tenga mayor tasa de refresco y para producción que tenga mejores colores."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

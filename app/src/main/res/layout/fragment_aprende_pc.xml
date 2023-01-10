@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ary.paradigmapc.ui.AprendePC.AprendePc">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgProce"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/proce" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procesador"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imgRam"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/ram" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memoria RAM"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgMother"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/mother" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motherboard"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:id="@+id/imgAlma"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/almacen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Almacenamiento"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:id="@+id/imgVideo"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/placa_video" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Placa de Video"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgFuente"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/fuente" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Fuente de poder"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imgMonitor"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/monitor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monitor"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgGabinete"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/gabinete" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gabinete"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imgExtras"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/wifi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extras"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

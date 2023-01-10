@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ary.paradigmapc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.AprendePC.AprendeGabinete"
+            android:parentActivityName=".ui.AprendePC.AprendeGabinete" />
+        <activity
+            android:name=".ui.AprendePC.AprendeMonitor"
+            android:parentActivityName=".ui.AprendePC.AprendeMonitor"/>
+        <activity
+            android:name=".ui.AprendePC.AprendeFuente"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendeExtras"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendePlaVideo"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendeAlmacenamiento"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendeMother"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendeRam"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.AprendePC.AprendeProcesador"
+            android:parentActivityName=".ui.AprendePC.AprendeProcesador" />
+        <activity
+            android:name=".ui.gallery.InfoPcProdu"
+            android:parentActivityName=".ui.gallery.InfoPcProdu" />
+        <activity
+            android:name=".ui.gallery.InfoPcArqui"
+            android:parentActivityName=".ui.gallery.InfoPcArqui" />
+        <activity
+            android:name=".ui.gallery.InfoPcGamming"
+            android:parentActivityName=".ui.gallery.InfoPcGamming" />
+        <activity
+            android:name=".ui.gallery.InfoPcEstudio"
+            android:parentActivityName=".ui.gallery.InfoPcEstudio" />
+        <activity
+            android:name=".ui.gallery.InfoPcOficina"
+            android:parentActivityName=".ui.gallery.InfoPcOficina" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Paradigma PC"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
